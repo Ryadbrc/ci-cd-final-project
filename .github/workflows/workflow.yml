@@ -1,9 +1,9 @@
 name: CI workflow
 on:
   push:
-    branches: ci-cd-final-project
+    branches: main
   pull_request:
-    branches: ci-cd-final-project
+    branches: main
 jobs:
   build:
     runs-on: ubuntu-latest
